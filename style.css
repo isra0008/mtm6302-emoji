@@ -42,6 +42,7 @@ header p {
     gap: 1rem;
     width: 85%;
     max-width: 1200px;
+    background-color: #f8f8f8;
 }
 
 .emoji-item {
