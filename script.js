@@ -26,7 +26,6 @@ const emojis = [
     { code: '&#129413;', decimal: '129413' }
     { code: '&#128330;', decimal: '128330' },
 ];
-// Select the gallery container in the HTML
 const emojiGallery = document.getElementById('emoji-gallery');
 
 emojis.forEach(emoji => {
