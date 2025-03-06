@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const emojis = [
     { code: '&#8986;', decimal: '8986' }
     { code: '&#9749;', decimal: '9749' }
@@ -36,4 +37,5 @@ emojis.forEach(emoji => {
         <code>${emoji.decimal}</code>
     `;
     emojiGallery.appendChild(emojiItem);
+});
 });
